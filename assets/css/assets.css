@@ -1,0 +1,122 @@
+:root{
+    --color-1: rgb(37, 37, 37);
+    --color-2: rgb(121, 8, 8);
+}
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    margin: 2% 0;
+}
+
+h1 {
+    font-size: 44px;
+    color: var(--color-1);
+}
+
+header {
+    display: flex;
+    background: var(--color-1);
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header li {
+    padding: 10px 10px;
+    margin: 10px
+}
+
+header h1 {
+    display: inline;
+    background-color: var(--color-2);
+    color: black;
+    padding: 5px 10px 5px 30px;
+    margin: 2% 0;
+}
+
+li {
+    display: inline;
+}
+
+header a, footer a {
+    color: var(--color-2);
+    text-decoration: none;
+}
+
+.background {
+    display: flex;
+    background-image: url(../images/Senna\ Sonic\ Trophy22.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+    height: 300px;
+}
+
+.works {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.work-container {
+    width: 45%;
+    height: 250px;
+    margin: 7px 0px;
+    position: relative;
+}
+
+.work-container:hover {
+    filter: brightness(1.3);
+    transition: .3s;
+}
+
+.work-container h2 {
+    position: absolute;
+    bottom: 10%;
+    left: 25%;
+    background-color: var(--color-2);
+    padding: 5px;
+}
+
+.work-container h2 p {
+    font-size: small;
+    font-weight: lighter;
+}
+
+.work-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.work-primary {
+    width: 100%;
+    height: 400px;
+}
+
+.margin-right {
+    margin-right: 2%;
+}
+
+.margin-left {
+    margin-left: 2%;
+}
+
+@media screen and (max-width: 980px) {
+    header h1, .work-container h2, header a, footer a {
+        background: skyblue;
+    }
+}
