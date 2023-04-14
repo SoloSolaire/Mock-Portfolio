@@ -1,6 +1,6 @@
 # Mock-Portfolio
 ## Screenshot of the Portfolio Webpage
-![Portfolio-screenshot](/Mock-Portfolio/assets/images/Mock-Portfolio-SS.png)
+![Portfolio-screenshot](./assets/images/Mock-Portfolio-SS.png)
 
 ## URLs
 * [Github Repository](https://github.com/SoloSolaire/Mock-Portfolio)
